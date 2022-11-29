@@ -1,0 +1,18 @@
+* {
+    font-family: Fugaz;
+}
+
+.wrapper {
+    background-image: url(/assets/images/bgtexture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-content {
+    padding: 2rem;
+}
+
+.about-txt {
+    background-color: white;
+    color: #5F002B;
+}
