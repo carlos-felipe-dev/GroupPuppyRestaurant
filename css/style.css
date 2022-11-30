@@ -1,3 +1,5 @@
+/*************  START ABOUT *****************/
+
 @font-face {
     font-family: Fugaz;
     src: url(/assets/fonts/FugazOne-Regular.ttf);
@@ -37,6 +39,7 @@
     color: #5F002B;
     background-color: white;
     margin-bottom: 2rem;
+    line-height: normal;
 }
 
 .about-card {
@@ -60,3 +63,25 @@
 /******** START FOOTER *******/
 /******* END FOOTER *******/
 
+/*************  END ABOUT *****************/
+
+/*************  START PHOTOS *****************/
+
+.photos-content-header-c {
+    background-color: white;
+}
+
+.photos-wrapper-c {
+    background-image: url(/assets/images/bgtexture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Fugaz;
+}
+
+.photos-images-c img{
+    border: 1rem solid rgb(255, 255, 255);
+    width: 100%;
+   
+}
+
+/*************  START PHOTOS *****************/
