@@ -12,14 +12,14 @@
 /******* END NAV *******/
 
 /******* START BODY *******/
-.wrapper-c {
+.about-wrapper-c {
     background-image: url(/assets/images/bgtexture.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Fugaz;
 }
 
-.hero-content-c {
+.about-hero-content-c {
     margin: 2rem; 
 }
 
@@ -33,24 +33,24 @@
     line-height:1rem;
 }
 
-.team-content-header-c {
+.about-team-content-header-c {
     color: #5F002B;
     background-color: white;
     margin-bottom: 2rem;
 }
 
-.card {
+.about-card {
     width: 100%;
 }
 
-.staff-c {
+.about-staff-c {
     /* display: flex;
     justify-content: space-between; */
     color: #5F002B;
     margin-bottom: 2rem;
 }
 
-.staff-c p {
+.about-staff-c p {
     font-family: Montauk;
     font-size: 1rem;
     line-height: 1rem;
