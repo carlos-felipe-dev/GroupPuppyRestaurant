@@ -38,10 +38,37 @@
     src: url(../assets/fonts/Montauk-Regular.otf);
 }
 
-.newFontM {
+.montaukFont {
     font-family: Montauk-Regular;
 }
 
+fontRed {
+    color: #5F002B;
+}
+
+
+
+
+
+
+
+
+
 body {
     background-image: url(/assets/images/bgtexture.jpg);
+}
+
+/*.headLink {
+    font-family: Montauk-Regular;
+    src: url(../assets/fonts/Montauk-Regular.otf);
+     
+}
+*/
+p {
+    color: #5F002B;
+}
+
+/* hero styles go below here*/
+.hero-content {
+    background-image: url(../assets/images/homeHero.jpg);
 }
