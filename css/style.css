@@ -1,18 +1,62 @@
-* {
+@font-face {
     font-family: Fugaz;
+    src: url(/assets/fonts/FugazOne-Regular.ttf);
 }
 
-.wrapper {
+@font-face {
+    font-family: Montauk;
+    src: url(/assets/fonts/Montauk-Regular.otf);
+} 
+
+/******* START NAV ****** */
+/******* END NAV *******/
+
+/******* START BODY *******/
+.wrapper-c {
     background-image: url(/assets/images/bgtexture.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: Fugaz;
 }
 
-.hero-content {
-    padding: 2rem;
+.hero-content-c {
+    margin: 2rem; 
 }
 
-.about-txt {
+.about-txt-c {
     background-color: white;
     color: #5F002B;
 }
+
+.about-txt-c p {
+    font-family: Montauk;
+    line-height:1rem;
+}
+
+.team-content-header-c {
+    color: #5F002B;
+    background-color: white;
+    margin-bottom: 2rem;
+}
+
+.card {
+    width: 100%;
+}
+
+.staff-c {
+    /* display: flex;
+    justify-content: space-between; */
+    color: #5F002B;
+    margin-bottom: 2rem;
+}
+
+.staff-c p {
+    font-family: Montauk;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+/*********** END BODY **********/
+
+/******** START FOOTER *******/
+/******* END FOOTER *******/
+
