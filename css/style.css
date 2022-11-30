@@ -16,3 +16,26 @@
     background-color: white;
     color: #5F002B;
 }
+
+/* Menu Page */
+.menu-title-top-padding{
+    height: 2.563rem;
+}
+
+.menu-title-area{
+    height: 5rem;
+}
+
+.menu-title-box{
+    /* padding-left: 8.75rem;
+    padding-right: 8.75rem; */
+    width: 102.5rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-title-bottom-padding{
+    height: 3.5rem;
+}
