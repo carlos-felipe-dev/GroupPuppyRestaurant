@@ -1,4 +1,4 @@
-* {
+*/* {
     font-family: Fugaz;
 }
 
@@ -15,4 +15,33 @@
 .about-txt {
     background-color: white;
     color: #5F002B;
+}*/
+
+
+/* fonts for rafa comment this out 
+
+
+
+
+/* Rafa's CSS Below */
+
+
+/* nav bar styling below here RM */
+.navBar {
+    font-family: Montauk-Regular;
+    src: url(../assets/fonts/Montauk-Regular.otf);
+}
+
+/* nav bar styling above here RM */
+@font-face {
+    font-family: Montauk-Regular;
+    src: url(../assets/fonts/Montauk-Regular.otf);
+}
+
+.newFontM {
+    font-family: Montauk-Regular;
+}
+
+body {
+    background-image: url(/assets/images/bgtexture.jpg);
 }
