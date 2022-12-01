@@ -35,7 +35,7 @@
     line-height:1rem;
 }
 
-.about-team-content {
+.about-team-content-c{
     padding: 1rem 0;
 }
 
@@ -93,3 +93,9 @@
 }
 
 /*************  START PHOTOS *****************/
+
+@media only screen and (min-width: 100px) {
+    .about-team-content-c {
+        padding: 5rem;
+    }
+}
