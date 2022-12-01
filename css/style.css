@@ -35,11 +35,15 @@
     line-height:1rem;
 }
 
+.about-team-content {
+    padding: 1rem 0;
+}
+
 .about-team-content-header-c {
     color: #5F002B;
     background-color: white;
-    margin-bottom: 2rem;
     line-height: normal;
+    margin-bottom: 2rem;
 }
 
 .about-card {
@@ -69,6 +73,9 @@
 
 .photos-content-header-c {
     background-color: white;
+    color: #5F002B;
+    margin: 0;
+    
 }
 
 .photos-wrapper-c {
@@ -76,12 +83,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Fugaz;
+    padding: 2rem 0;
 }
 
 .photos-images-c img{
-    border: 1rem solid rgb(255, 255, 255);
+    border: 0.625rem solid rgb(255, 255, 255);
     width: 100%;
-   
+    margin-top: 1.5rem;   
 }
 
 /*************  START PHOTOS *****************/
