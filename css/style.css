@@ -1,5 +1,11 @@
-* {
+@font-face {
     font-family: Fugaz;
+    src: url(/assets/fonts/FugazOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montauk;
+    src: url(/assets/fonts/Montauk-Light.otf);
 }
 
 .wrapper {
@@ -17,7 +23,11 @@
     color: #5F002B;
 }
 
-/* Menu Page */
+/*~~~~~~~~~~~~ Menu Page ~~~~~~~~~~~~*/
+#bootstrap-overides{
+    line-height: 1.2;
+}
+
 .menu-title-top-padding{
     height: 2.563rem;
 }
@@ -27,15 +37,114 @@
 }
 
 .menu-title-box{
-    /* padding-left: 8.75rem;
-    padding-right: 8.75rem; */
     width: 102.5rem;
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Fugaz;
+    color: #5F002B;
+    font-size: 3.125rem;
 }
 
 .menu-title-bottom-padding{
-    height: 3.5rem;
+    height: 2.25rem;
+}
+
+.pictures-center {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-sandwiches-img{
+    background-image: url("/assets/images/menubeef.jpg");
+}
+
+.menu-seafood-img{
+    background-image: url("/assets/images/menuseafood.jpg");
+}
+
+.menu-grill-img{
+    background-image: url("/assets/images/menumeat.jpg");
+}
+
+.menu-desert-img{
+    background-image: url("/assets/images/menudesserts.jpg");
+}
+
+.menu-img-styling{
+    background-size: cover;
+    height: 15.625rem;
+    width: 50.75rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 1.25rem;
+}
+
+.menu-text-area{
+    background-color: white;
+    background-size: cover;
+    height: 42.313rem;
+    width: 50.75rem;
+    margin-right: .5rem;
+    margin-left: .5rem;
+}
+
+.menu-category-title{
+    font-family: Fugaz;
+    font-size: 1.875rem;
+    color: #5F002B;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+    margin-top: 1.438rem;
+}
+
+.menu-category-subtitle{
+    font-family: Montauk;
+    font-size: 1.25rem;
+    color: #5F002B;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+    margin-bottom: .5rem;
+}
+
+.menu-item-padding{
+    height: 2.5rem;
+}
+
+.menu-item-title-style{
+    font-family: Montauk;
+    font-size: 2.188rem;
+    color: #5F002B;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
+}
+
+hr{
+    width: 45.75rem;
+}
+
+/*~~~~~~~~~~~~ Footer Styings ~~~~~~~~~~~~*/
+.menu-footer-padding{
+    height: 7.5rem;
+}
+
+.footer-contanier{
+    width: 102.5rem;
+}
+
+.footer-text-styling{
+    font-family: Montauk;
+    font-size: 1.25rem;
+    color: #5F002B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom-padding{
+    height: 2.5rem;
 }
