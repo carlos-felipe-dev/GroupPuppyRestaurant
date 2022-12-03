@@ -1,4 +1,19 @@
 /*************  START ABOUT *****************/
+@media only screen and (max-width: 991px) {
+    .about-hero-content-c img {
+        margin-bottom: 1rem;
+    }
+    
+    .about-wrapper-c .about-team-content-c {
+        padding: 1px;
+    }
+
+    .about-wrapper-c .about-staff-c {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}
 
 @font-face {
     font-family: Fugaz;
@@ -21,40 +36,39 @@
     font-family: Fugaz;
 }
 
-.about-hero-content-c {
-    margin: 2rem; 
-}
-
 .about-txt-c {
     background-color: white;
     color: #5F002B;
+    
 }
 
 .about-txt-c p {
     font-family: Montauk;
     line-height:1rem;
+
 }
 
-.about-team-content-c{
-    padding: 1rem 0;
-}
 
 .about-team-content-header-c {
     color: #5F002B;
     background-color: white;
     line-height: normal;
+    margin-top: 2rem;
     margin-bottom: 2rem;
+    
 }
 
 .about-card {
     width: 100%;
 }
 
+.card-cont {
+    padding-bottom: 1.5rem;
+    /* margin: 0 auto; */
+}
+
 .about-staff-c {
-    /* display: flex;
-    justify-content: space-between; */
     color: #5F002B;
-    margin-bottom: 2rem;
 }
 
 .about-staff-c p {
@@ -94,8 +108,4 @@
 
 /*************  START PHOTOS *****************/
 
-@media only screen and (min-width: 100px) {
-    .about-team-content-c {
-        padding: 5rem;
-    }
-}
+
