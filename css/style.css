@@ -74,6 +74,7 @@
 
 .menu-img-styling{
     background-size: cover;
+    background-position: center;
     height: 15.625rem;
     width: 50.75rem;
     margin-left: 0.5rem;
@@ -125,6 +126,40 @@
 
 hr{
     width: 45.75rem;
+}
+
+@media screen and (max-width: 1399px) {
+    .menu-img-styling{
+        width: 100%;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-top: 0rem;
+    }
+    
+    hr{
+        width: 100%;
+    }
+
+    .menu-text-area{
+        height: auto;
+        width: 100%;
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+
+    .menu-category-title{
+        margin-right: 2.5rem;
+        margin-left: 2.5rem;
+        margin-top: 0rem;
+    }
+
+    .menu-responsive-padding{
+        height: 1rem;
+    }
+
+    .menu-responsive-padding-items{
+        height: 2.5rem;
+    }
 }
 
 /*~~~~~~~~~~~~ Footer Styings ~~~~~~~~~~~~*/
