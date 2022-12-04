@@ -132,6 +132,10 @@ hr{
     height: 7.5rem;
 }
 
+.catering-footer-padding{
+    height: 3.438rem;
+}
+
 .footer-contanier{
     width: 102.5rem;
 }
@@ -147,4 +151,129 @@ hr{
 
 .footer-bottom-padding{
     height: 2.5rem;
+}
+
+.xs-size-footer-organization{
+    display: flex;
+    justify-content: center;
+}
+
+/*~~~~~~~~~~~~ Catering Page ~~~~~~~~~~~~*/
+.catering-title-box{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Fugaz;
+    color: #5F002B;
+    font-size: 3.125rem;
+    width: 102.5rem;
+}
+
+@media screen and (max-width: 1600px) {
+   
+    .catering-title-box {
+        width: 100%;
+    }
+
+    /* .catering-hero-img{
+        width: 100%;
+        height: auto;
+    } */
+    
+}
+
+.catering-center-divs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catering-title-bottom-padding{
+    height: 5.375rem;
+}
+
+/* .catering-hero-img{
+    background-image: url("/assets/images/cateringHero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 31.25rem;
+    width: 102.5rem;
+} */
+
+.catering-heroimg-bottom-padding{
+    height: 5.625rem;
+}
+
+.catering-services-img{
+    background-image: url("/assets/images/cateringMaine.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-right: .5rem;
+    height: 22.844rem;
+    width: 42.125rem;
+}
+
+.catering-services-txt-box{
+    height: 22.844rem;
+    background-color: white;
+    margin-left: .5rem;
+    width: 59.375rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.catering-txt-box-title{
+    font-family: Fugaz;
+    color: #5F002B;
+    font-size: 1.875rem;
+    padding-left: 2.5rem;
+    padding-top: 2.5rem;
+}
+
+.catering-txt-box-body{
+    font-family: Montauk;
+    color: #5F002B;
+    font-size: 1.25rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.catering-services-bottom-padding{
+    height: 6.25rem;
+}
+
+.catering-bottom-images{
+    height: 22.281rem;
+    width: 33.5rem;
+    margin-right: .5rem;
+    margin-left: .5rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.catering-img-1{
+    background-image: url("/assets/images/catering1.jpg");
+    
+}
+
+.catering-img-2{
+    background-image: url("/assets/images/catering2.jpg");
+}
+
+.catering-img-3{
+    background-image: url("/assets/images/catering3.jpg");
+}
+
+#bootstrap-overides-catering{
+    line-height: 1.1;
+}
+
+@media screen and (max-width: 992px) {
+    .catering-services-txt-box{
+        height: 22.844rem;
+        margin-left: 0rem;
+        width: 100%;
+    }
 }
