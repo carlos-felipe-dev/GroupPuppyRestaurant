@@ -5,6 +5,11 @@
 
 @font-face {
     font-family: Montauk;
+    src: url(/assets/fonts/Montauk-Regular.otf);
+}
+
+@font-face {
+    font-family: Montauk-Light;
     src: url(/assets/fonts/Montauk-Light.otf);
 }
 
@@ -23,7 +28,7 @@
     color: #5F002B;
 }
 
-/*~~~~~~~~~~~~ Menu Page ~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~vvv MENU PAGE STYLINGS BEGIN vvv~~~~~~~~~~~~*/
 #bootstrap-overides{
     line-height: 1.2;
 }
@@ -101,7 +106,7 @@
 }
 
 .menu-category-subtitle{
-    font-family: Montauk;
+    font-family: Montauk-Light;
     font-size: 1.25rem;
     color: #5F002B;
     margin-right: 2.5rem;
@@ -114,7 +119,7 @@
 }
 
 .menu-item-title-style{
-    font-family: Montauk;
+    font-family: Montauk-Light;
     font-size: 2.188rem;
     color: #5F002B;
     display: flex;
@@ -128,16 +133,26 @@ hr{
     width: 45.75rem;
 }
 
+@media screen and (max-width: 1680px) {
+    .menu-img-styling{
+        width: 48%;
+    }
+
+    .menu-text-area{
+        width: 48%;
+    }
+    
+    hr{
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 1399px) {
     .menu-img-styling{
         width: 100%;
         margin-left: 0rem;
         margin-right: 0rem;
         margin-top: 0rem;
-    }
-    
-    hr{
-        width: 100%;
     }
 
     .menu-text-area{
@@ -161,8 +176,10 @@ hr{
         height: 2.5rem;
     }
 }
+/*~~~~~~~~~~~~^^^ MENU PAGE STYLINGS END ^^^~~~~~~~~~~~~*/
 
-/*~~~~~~~~~~~~ Footer Styings ~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~vvv FOOTER STYINGS BEGIN vvv~~~~~~~~~~~~*/
 .menu-footer-padding{
     height: 7.5rem;
 }
@@ -176,7 +193,7 @@ hr{
 }
 
 .footer-text-styling{
-    font-family: Montauk;
+    font-family: Montauk-Light;
     font-size: 1.25rem;
     color: #5F002B;
     display: flex;
@@ -192,8 +209,10 @@ hr{
     display: flex;
     justify-content: center;
 }
+/*~~~~~~~~~~~~^^^ FOOTER STYINGS END ^^^~~~~~~~~~~~~*/
 
-/*~~~~~~~~~~~~ Catering Page ~~~~~~~~~~~~*/
+
+/*~~~~~~~~~~~~vvv CATERING PAGE STYLINGS BEGIN vvv~~~~~~~~~~~~*/
 .catering-title-box{
     background-color: white;
     display: flex;
@@ -210,11 +229,6 @@ hr{
     .catering-title-box {
         width: 100%;
     }
-
-    /* .catering-hero-img{
-        width: 100%;
-        height: auto;
-    } */
     
 }
 
@@ -227,14 +241,6 @@ hr{
 .catering-title-bottom-padding{
     height: 5.375rem;
 }
-
-/* .catering-hero-img{
-    background-image: url("/assets/images/cateringHero.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 31.25rem;
-    width: 102.5rem;
-} */
 
 .catering-heroimg-bottom-padding{
     height: 5.625rem;
@@ -267,7 +273,7 @@ hr{
 }
 
 .catering-txt-box-body{
-    font-family: Montauk;
+    font-family: Montauk-Light;
     color: #5F002B;
     font-size: 1.25rem;
     padding-right: 2.5rem;
@@ -305,10 +311,23 @@ hr{
     line-height: 1.1;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
     .catering-services-txt-box{
         height: 22.844rem;
         margin-left: 0rem;
         width: 100%;
     }
+
+    .catering-title-bottom-padding{
+        height: 2rem;
+    }
+
+    .catering-heroimg-bottom-padding{
+        height: 2rem;
+    }
+
+    .catering-services-bottom-padding{
+        height: 2rem;
+    }
 }
+/*~~~~~~~~~~~~^^^ CATERING PAGE STYLINGS END ^^^~~~~~~~~~~~~*/
