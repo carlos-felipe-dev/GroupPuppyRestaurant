@@ -1,3 +1,20 @@
+/*************  START ABOUT *****************/
+@media only screen and (max-width: 991px) {
+    .about-hero-content-c img {
+        margin-bottom: 1rem;
+    }
+    
+    .about-wrapper-c .about-team-content-c {
+        padding: 1px;
+    }
+
+    .about-wrapper-c .about-staff-c {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}
+
 @font-face {
     font-family: Fugaz;
     src: url(/assets/fonts/FugazOne-Regular.ttf);
@@ -13,19 +30,90 @@
     src: url(/assets/fonts/Montauk-Light.otf);
 }
 
-.wrapper {
+@font-face {
+    font-family: Montauk;
+    src: url(/assets/fonts/Montauk-Regular.otf);
+} 
+
+/******* START NAV ****** */
+/******* END NAV *******/
+
+/******* START BODY *******/
+.about-wrapper-c {
     background-image: url(/assets/images/bgtexture.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: Fugaz;
 }
 
-.hero-content {
-    padding: 2rem;
-}
-
-.about-txt {
+.about-txt-c {
     background-color: white;
     color: #5F002B;
+    
+}
+
+.about-txt-c p {
+    font-family: Montauk;
+    line-height:1rem;
+
+}
+
+
+.about-team-content-header-c {
+    color: #5F002B;
+    background-color: white;
+    line-height: normal;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.about-card {
+    width: 100%;
+}
+
+.card-cont {
+    padding-bottom: 1.5rem;
+    /* margin: 0 auto; */
+}
+
+.about-staff-c {
+    color: #5F002B;
+}
+
+.about-staff-c p {
+    font-family: Montauk;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+/*********** END BODY **********/
+
+/******** START FOOTER *******/
+/******* END FOOTER *******/
+
+/*************  END ABOUT *****************/
+
+/*************  START PHOTOS *****************/
+
+.photos-content-header-c {
+    background-color: white;
+    color: #5F002B;
+    margin: 0;
+    
+}
+
+.photos-wrapper-c {
+    background-image: url(/assets/images/bgtexture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Fugaz;
+    padding: 2rem 0;
+}
+
+.photos-images-c img{
+    border: 0.625rem solid rgb(255, 255, 255);
+    width: 100%;
+    margin-top: 1.5rem;   
 }
 
 /*~~~~~~~~~~~~vvv MENU PAGE STYLINGS BEGIN vvv~~~~~~~~~~~~*/
