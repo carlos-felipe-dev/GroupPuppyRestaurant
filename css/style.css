@@ -58,7 +58,7 @@ body {
     background-image: url(/assets/images/bgtexture.jpg);
 }
 
-/*.headLink {
+.headLink {
     font-family: Montauk-Regular;
     src: url(../assets/fonts/Montauk-Regular.otf);
      
@@ -71,4 +71,85 @@ p {
 /* hero styles go below here*/
 .hero-content {
     background-image: url(../assets/images/homeHero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    min-height: 600px;
+    width: auto;
+}
+
+
+/*homepage over content below here*/
+
+.bf-container {
+    margin-left: 7rem;
+    
+    background-position: 100%;
+    display: flex;
+  
+    display: grid;
+    place-items: center;
+}
+
+
+.white-BG{
+    background-color: white;
+   
+}
+.threePic-strip {
+    background-image: url(../assets/images/HomeImage.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.overView-txt {
+    text-align: left;
+    padding: 25px;
+    font-family: Montauk-Regular;
+    src: url(../assets/fonts/Montauk-Regular.otf);
+    
+}
+.overView-txt-container {
+   
+    margin: 3% auto;
+   margin-left: rem auto;
+    padding-top: 6rem auto;  
+
+    display: flex;
+    flex-direction: column;
+justify-content: center; 
+
+
+width: 950px auto;
+height: 450px auto;
+
+
+
+
+}
+.basket-fries {
+margin: 25% auto;
+display: flex;
+justify-content: center;
+
+cawidth: 674px; /* Can be in percentage also. */
+height: 450px auto;
+
+padding: 10px auto;
+position: relative;
+
+margin: 25%;
+}
+.mainTxt-container {
+    display: flex;
+
+    
+}
+
+@media all and (max-width: 700px) {
+
+}
+.split {
+    display-flex
 }
