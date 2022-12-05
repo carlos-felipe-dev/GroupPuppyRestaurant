@@ -1,4 +1,4 @@
-*/* {
+/* {
     font-family: Fugaz;
 }
 
@@ -147,9 +147,5 @@ margin: 25%;
     
 }
 
-@media all and (max-width: 700px) {
 
-}
-.split {
-    display-flex
-}
+
