@@ -429,9 +429,10 @@ hr{
 
 
 /* nav bar styling below here RM */
-.navBar {
+.nav-txt-style {
     font-family: Montauk-Regular;
     src: url(../assets/fonts/Montauk-Regular.otf);
+    font-color: #5F002B;
 }
 
 /* nav bar styling above here RM */
@@ -450,12 +451,6 @@ hr{
 
 
 
-
-
-
-
-
-
 body {
     background-image: url(/assets/images/bgtexture.jpg);
 }
@@ -466,10 +461,7 @@ body {
     
      
 }
-*/
-p {
-    color: #5F002B;
-}
+
 
 /* hero styles go below here*/
 .hero-content {
@@ -536,7 +528,7 @@ margin: 25% auto;
 display: flex;
 justify-content: center;
 
-cawidth: 674px; /* Can be in percentage also. */
+max-width: 674px; /* Can be in percentage also. */
 height: 450px auto;
 
 padding: 10px auto;
