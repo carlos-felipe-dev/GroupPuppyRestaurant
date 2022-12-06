@@ -54,10 +54,18 @@
     
 }
 
-.about-txt-c p {
-    font-family: Montauk;
-    line-height:1rem;
+.about-txt-c h1 {
+    font-size: 3.125rem;
+    padding-top: 1.875rem;
+    padding-left: 2.5rem;
+}
 
+.about-txt-c p {
+    font-family: Montauk-Light;
+    line-height:1.375rem;
+    font-size: 1.25rem;
+    padding-left: 2.5rem;
+    padding-right: 4rem;
 }
 
 
@@ -67,7 +75,11 @@
     line-height: normal;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    
+    font-size: 30px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-card {
@@ -84,9 +96,18 @@
 }
 
 .about-staff-c p {
-    font-family: Montauk;
-    font-size: 1rem;
-    line-height: 1rem;
+    font-family: Montauk-Light;
+    font-size: 1.25rem;
+    line-height: 22px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 20px;
+}
+
+.about-staff-c h5{
+    font-size: 30px;
+    padding-right: 16px;
+    padding-left: 16px;
 }
 /*********** END BODY **********/
 
@@ -101,7 +122,11 @@
     background-color: white;
     color: #5F002B;
     margin: 0;
-    
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
 }
 
 .photos-wrapper-c {
