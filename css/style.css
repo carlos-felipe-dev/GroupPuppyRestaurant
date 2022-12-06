@@ -444,7 +444,7 @@ hr{
     font-family: Montauk-Regular;
 }
 
-fontRed {
+.fontRed {
     color: #5F002B;
 }
 
@@ -463,6 +463,7 @@ body {
 .headLink {
     font-family: Montauk-Regular;
     src: url(../assets/fonts/Montauk-Regular.otf);
+    
      
 }
 */
