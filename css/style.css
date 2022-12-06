@@ -263,8 +263,73 @@ hr{
     .menu-responsive-padding-items{
         height: 2.5rem;
     }
+
+    .menu-title-box{
+        width: 100%;
+    }
 }
 /*~~~~~~~~~~~~^^^ MENU PAGE STYLINGS END ^^^~~~~~~~~~~~~*/
+
+
+/*~~~~~~~~~~~~vvv NAVBAR STYINGS BEGIN vvv~~~~~~~~~~~~*/
+.menu-top-padding{
+    height: 0.875rem;
+}
+
+.nav-spacing{
+    max-width: 102.5rem;
+}
+
+.nav-item {
+    padding-left: 3.125rem;
+}
+
+.nav-link {
+    color:#5F002B;
+    font-size: 1.25rem;
+    font-family: Fugaz;
+}
+
+.nav-link:hover{
+    color:#5F002B;
+}
+
+.nav-logo {
+    padding-left: 1.625rem;
+}
+
+#bootstrap-override-link-color{
+    color:#5F002B;
+}
+
+@media (max-width: 1640px){
+    .nav-item-right-padding{
+        padding-right: .75rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .nav-logo {
+        padding-left: 0px;
+        width: 200px;
+        height: auto;
+    }
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(95,0,43, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+    border-color: #5F002B;
+    border-width: 0.125rem;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.188rem #5F002B;
+}
+
+/*~~~~~~~~~~~~vvv NAVBAR STYINGS END vvv~~~~~~~~~~~~*/
 
 
 /*~~~~~~~~~~~~vvv FOOTER STYINGS BEGIN vvv~~~~~~~~~~~~*/
@@ -357,7 +422,7 @@ hr{
     color: #5F002B;
     font-size: 1.875rem;
     padding-left: 2.5rem;
-    padding-top: 2.5rem;
+    padding-top: 2.438rem;
 }
 
 .catering-txt-box-body{
@@ -366,7 +431,7 @@ hr{
     font-size: 1.25rem;
     padding-right: 2.5rem;
     padding-left: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding-bottom: 2.438rem;
 }
 
 .catering-services-bottom-padding{
