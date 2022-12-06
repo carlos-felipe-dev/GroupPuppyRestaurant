@@ -1,4 +1,6 @@
 /*************  START ABOUT *****************/
+
+
 @media only screen and (max-width: 991px) {
     .about-hero-content-c img {
         margin-bottom: 1rem;
@@ -103,12 +105,9 @@
 }
 
 .photos-wrapper-c {
-    background-image: url(/assets/images/bgtexture.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     font-family: Fugaz;
     padding: 2rem 0;
-}
+} 
 
 .photos-images-c img{
     border: 0.625rem solid rgb(255, 255, 255);
@@ -607,3 +606,9 @@ margin: 25%;
     
 }
 /*~~~~~~~~~~~~^^^ CATERING PAGE STYLINGS END ^^^~~~~~~~~~~~~*/
+
+body {
+    background-image: url(/assets/images/bgtexture.jpg);
+    background-repeat: repeat;
+    background-size: 70%;
+}
