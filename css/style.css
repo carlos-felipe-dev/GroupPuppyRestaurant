@@ -625,8 +625,14 @@ height: 450px auto;
     line-height: 22px;
     margin-left: 24px;
     margin-right: 48px;
+    margin-bottom: 90px;
     
 
+}
+.index-overView-vertical-alignment {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
