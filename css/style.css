@@ -123,11 +123,11 @@ justify-content: center;
 
 width: 950px auto;
 height: 450px auto;
-
-
-
-
 }
+.index-overView-title {
+    
+}
+
 .basket-fries {
 margin: 25% auto;
 display: flex;
