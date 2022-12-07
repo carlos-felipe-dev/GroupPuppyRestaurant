@@ -608,10 +608,30 @@ justify-content: center;
 width: 950px auto;
 height: 450px auto;
 
+}
 
+.index-overView-title {
+    font-size: 50px;
+    font-family: Fugaz;
+    color: #5F002B;
+    margin-left: 24px;
+    margin-top: 8px;
+}
 
+.index-overView-text {
+    font-size: 20px;
+    font-family: Montauk-Light;
+    color: #5F002B;
+    line-height: 22px;
+    margin-left: 24px;
+    margin-right: 48px;
+    
 
 }
+
+
+
+
 .basket-fries {
 margin: 25% auto;
 display: flex;
