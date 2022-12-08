@@ -109,6 +109,30 @@
     padding-right: 16px;
     padding-left: 16px;
 }
+@media only screen and (max-width: 991px) {
+    .about-txt-c p {
+        font-size: 1.25rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .about-txt-c h1 {
+        padding-left: 2rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .about-txt-c p {
+        font-size: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .about-txt-c h1 {
+        padding-left: 1rem;
+    }
+    .about-staff-c p {
+        font-size: 1rem;
+    }
+}
 /*********** END BODY **********/
 
 /******** START FOOTER *******/
