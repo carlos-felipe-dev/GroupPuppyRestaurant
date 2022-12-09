@@ -19,22 +19,22 @@
 
 @font-face {
     font-family: Fugaz;
-    src: url(/assets/fonts/FugazOne-Regular.ttf);
+    src: url(../assets/fonts/FugazOne-Regular.ttf);
 }
 
 @font-face {
     font-family: Montauk;
-    src: url(/assets/fonts/Montauk-Regular.otf);
+    src: url(../assets/fonts/Montauk-Regular.otf);
 }
 
 @font-face {
     font-family: Montauk-Light;
-    src: url(/assets/fonts/Montauk-Light.otf);
+    src: url(../assets/fonts/Montauk-Light.otf);
 }
 
 @font-face {
     font-family: Montauk;
-    src: url(/assets/fonts/Montauk-Regular.otf);
+    src: url(../assets/fonts/Montauk-Regular.otf);
 } 
 
 /******* START NAV ****** */
@@ -42,7 +42,7 @@
 
 /******* START BODY *******/
 .about-wrapper-c {
-    background-image: url(/assets/images/bgtexture.jpg);
+    background-image: url(../assets/images/bgtexture.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Fugaz;
@@ -198,19 +198,19 @@
 }
 
 .menu-sandwiches-img{
-    background-image: url("/assets/images/menubeef.jpg");
+    background-image: url("../assets/images/menubeef.jpg");
 }
 
 .menu-seafood-img{
-    background-image: url("/assets/images/menuseafood.jpg");
+    background-image: url("../assets/images/menuseafood.jpg");
 }
 
 .menu-grill-img{
-    background-image: url("/assets/images/menumeat.jpg");
+    background-image: url("../assets/images/menumeat.jpg");
 }
 
 .menu-desert-img{
-    background-image: url("/assets/images/menudesserts.jpg");
+    background-image: url("../assets/images/menudesserts.jpg");
 }
 
 .menu-img-styling{
@@ -448,7 +448,7 @@ hr{
 }
 
 .catering-services-img{
-    background-image: url("/assets/images/cateringMaine.jpg");
+    background-image: url("../assets/images/cateringMaine.jpg");
     background-size: cover;
     background-position: center;
     margin-right: .5rem;
@@ -496,16 +496,16 @@ hr{
 }
 
 .catering-img-1{
-    background-image: url("/assets/images/catering1.jpg");
+    background-image: url("../assets/images/catering1.jpg");
     
 }
 
 .catering-img-2{
-    background-image: url("/assets/images/catering2.jpg");
+    background-image: url("../assets/images/catering2.jpg");
 }
 
 .catering-img-3{
-    background-image: url("/assets/images/catering3.jpg");
+    background-image: url("../assets/images/catering3.jpg");
 }
 
 #bootstrap-overides-catering{
@@ -565,7 +565,7 @@ hr{
 
 
 body {
-    background-image: url(/assets/images/bgtexture.jpg);
+    background-image: url(../assets/images/bgtexture.jpg);
 }
 
 .headLink {
@@ -710,7 +710,7 @@ margin: 25%;
 /*~~~~~~~~~~~~^^^ CATERING PAGE STYLINGS END ^^^~~~~~~~~~~~~*/
 
 body {
-    background-image: url(/assets/images/bgtexture.jpg);
+    background-image: url(../assets/images/bgtexture.jpg);
     background-repeat: repeat;
     background-size: 70%;
     min-width: 305px;
